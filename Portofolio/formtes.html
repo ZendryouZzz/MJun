@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .css {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); 
+            width: 300px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #4CAF50;
+            background-image: url(form.jpg);
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            margin: 0;
+            height: 100vh;
+        }
+        input[type="nim"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            font-size: 14px;
+        }
+        .btn {
+            display: inline-block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        .links a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="css">
+        <form action="">
+            <h1>Form Login</h1>
+            <input type="nim" placeholder="NIM"><p></p>
+            <input type="password" placeholder="Password"><p></p>
+            <a href="portofolio.html" class="btn">LOGIN</a><p></p>
+            <div class="links">
+                <a href="a">Lupa Password?</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
